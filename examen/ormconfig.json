@@ -1,0 +1,18 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 32769,
+  "username": "web",
+  "password": "123",
+  "database": "web",
+  "entities": [
+    "RolEntity",
+    "UsuarioEntity",
+    "RolPorUsuarioEntity",
+    "AutorEntity",
+    "LibroEntity",
+    "EventoEntity",
+    "EventoLibroEntity"
+  ],
+  "synchronize": true
+}
